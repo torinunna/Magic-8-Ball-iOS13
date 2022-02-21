@@ -29,6 +29,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Ask">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="35"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LfU-L6-eYK"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ask Me Anything..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUt-5i-9ZU">
                                 <rect key="frame" x="64" y="174" width="286" height="40"/>
@@ -41,6 +44,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.48637688910210886" green="0.73739869444520323" blue="0.75724162922038896" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="bHz-EQ-Phg" id="F7A-Zf-xWw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
